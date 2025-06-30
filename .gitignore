@@ -1,0 +1,20 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Virtual environment
+venv/
+.env
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Data and generated content
+data/
+reports/
+*.db
+*.faiss
