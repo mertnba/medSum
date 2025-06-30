@@ -29,12 +29,4 @@ Environment variables required:
 `NCBI_EMAIL=...`  
 `NCBI_API_KEY=...` (optional)
 
-## Project Structure
-
-src/papers_agent/         → core modules: agents, pipeline, tools, storage  
-src/papers_agent/scripts/ → entry-point scripts  
-prompts/                  → LLM prompt templates  
-data/                     → JSON and database output (auto-generated)  
-reports/                  → generated weekly summaries  
-tests/                    → unit tests  
 
