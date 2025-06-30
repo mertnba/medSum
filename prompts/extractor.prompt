@@ -1,0 +1,18 @@
+Given the following PubMed article metadata, extract the structured details of a clinical trial.
+
+Title:
+{title}
+
+Abstract:
+{abstract}
+
+PMID:
+{pmid}
+
+Please extract the following fields:
+- Sample size (integer)
+- Trial arms (list of strings)
+- Primary outcome (string)
+
+Return the result in this exact format:
+{format_instructions}
