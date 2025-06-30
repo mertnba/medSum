@@ -1,0 +1,26 @@
+[project]
+name = "medstractor"
+version = "0.1.0"
+description = "Agentic pipeline for extracting and summarizing clinical trials from PubMed"
+authors = ["Mert Enbiyaoglu <your-email@example.com>"]
+readme = "README.md"
+license = {text = "MIT"}
+
+dependencies = [
+    "langgraph>=0.0.20",
+    "langchain>=0.1.0",
+    "langchain-openai>=0.0.3",
+    "langchain-community",
+    "faiss-cpu",
+    "pydantic>=2.0.0",
+    "rich",
+    "biopython",
+    "python-dotenv"
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
